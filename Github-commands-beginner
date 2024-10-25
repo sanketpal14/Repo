@@ -1,0 +1,80 @@
+1. Clone a Repository
+Command: git clone <repository-url>
+Example: git clone https://github.com/sanketp66/example-repo.git
+This clones a remote GitHub repository to your local machine.
+2. Check Repository Status
+Command: git status
+Example: git status
+Shows the status of your working directory and the changes staged for your next commit.
+3. Add Files to Staging
+Command: git add <file-name> or git add .
+Example: git add index.html or git add .
+Adds specific files or all files to the staging area.
+4. Commit Changes
+Command: git commit -m "<message>"
+Example: git commit -m "Add index page layout"
+Commits staged changes to the repository with a descriptive message.
+5. Push Changes to Remote
+Command: git push origin <branch-name>
+Example: git push origin main
+Pushes committed changes to the specified branch on GitHub.
+6. Pull Updates from Remote
+Command: git pull origin <branch-name>
+Example: git pull origin main
+Fetches and merges updates from the remote branch into your local branch.
+7. Create a New Branch
+Command: git branch <new-branch-name>
+Example: git branch feature-xyz
+Creates a new branch to work on a feature or task.
+8. Switch to a Branch
+Command: git checkout <branch-name>
+Example: git checkout feature-xyz
+Switches to an existing branch.
+9. Create and Switch to a New Branch
+Command: git checkout -b <new-branch-name>
+Example: git checkout -b bugfix-123
+Creates a new branch and switches to it in one command.
+10. Merge a Branch
+Command: git merge <branch-name>
+Example: git merge feature-xyz
+Merges the specified branch into the current branch.
+11. Delete a Branch
+Command: git branch -d <branch-name>
+Example: git branch -d feature-xyz
+Deletes a local branch once you're done with it.
+12. Fetch Changes from Remote
+Command: git fetch origin
+Example: git fetch origin
+Fetches updates from the remote repository without merging them.
+13. Stash Changes
+Command: git stash
+Example: git stash
+Temporarily saves uncommitted changes so you can work on something else.
+14. Apply Stashed Changes
+Command: git stash apply
+Example: git stash apply
+Re-applies the most recent stashed changes.
+15. View Commit History
+Command: git log
+Example: git log --oneline
+Shows commit history, with --oneline for a compact view.
+16. View Remote Repository URLs
+Command: git remote -v
+Example: git remote -v
+Lists remote connections like the origin repository URLs.
+17. Set a New Remote URL
+Command: git remote set-url origin <new-url>
+Example: git remote set-url origin https://github.com/sanketp66/new-repo.git
+Changes the URL of the origin remote.
+18. Undo Last Commit (Soft Reset)
+Command: git reset --soft HEAD~1
+Example: git reset --soft HEAD~1
+Undoes the last commit but keeps changes staged.
+19. Revert a Commit
+Command: git revert <commit-hash>
+Example: git revert a1b2c3d4
+Creates a new commit that undoes the changes of a specified commit.
+20. Tag a Commit
+Command: git tag -a <tag-name> -m "<message>"
+Example: git tag -a v1.0 -m "First release"
+Tags a specific commit, which is useful for marking release versions.
